@@ -1,27 +1,35 @@
-# 🧮 QCalc – Smart Calculator Application (Java OOP)
+# 🧮 QCalc – Java Calculator Application
 
 ## 📌 Project Overview
 
-QCalc is a desktop-based calculator application built using **Java with Object-Oriented Programming (OOP) principles**. The application is designed with modular, reusable, and maintainable code using concepts like encapsulation, abstraction, inheritance, and polymorphism.
+QCalc is a simple calculator application built using **Java** to demonstrate core programming concepts and basic software development practices. The project focuses on implementing essential calculator features while improving debugging and testing skills.
+
+---
+
+## 📅 Project Duration
+
+**Jun 2025**
+
+---
+
+## 📰 Headline
+
+**Build a simple calculator project using Java from scratch**
 
 ---
 
 ## 🚀 Features
 
-* ➕ Basic operations (Addition, Subtraction, Multiplication, Division)
-* 📊 Advanced operations (Square Root, Power, Percentage)
-* 🧠 Exception handling (invalid inputs, divide by zero)
-* 🖥️ GUI built using Java Swing
-* ⚡ Real-time calculation updates
+* ➕ Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
+* ⚡ Fast and efficient calculations
+* 🧠 Error handling for invalid inputs
+* 🐞 Debugged and optimized code for reliability
 
 ---
 
-## 🧠 OOP Concepts Used
+## 🎯 Objective
 
-* **Encapsulation** → Data and methods wrapped inside classes
-* **Abstraction** → Hiding complex logic using methods
-* **Inheritance** → Reusing base class functionality *(if implemented)*
-* **Polymorphism** → Method overloading for different operations
+This project aims to build a strong foundation in Java by implementing a subset of features commonly found in calculator applications.
 
 ---
 
@@ -31,9 +39,11 @@ QCalc is a desktop-based calculator application built using **Java with Object-O
 
 * Java
 
-### Libraries
+### Tools & Concepts
 
-* Java Swing / AWT
+* Gradle (Project Build Tool)
+* Unit Testing (JUnit)
+* Debugging
 
 ---
 
@@ -44,11 +54,10 @@ QCalc/
 │
 ├── src/
 │   ├── Main.java
-│   ├── CalculatorUI.java
-│   ├── CalculatorLogic.java
-│   └── Operations.java
+│   ├── Calculator.java
+│   └── CalculatorTest.java
 │
-├── bin/
+├── build.gradle
 └── README.md
 ```
 
@@ -63,47 +72,51 @@ git clone https://github.com/your-username/qcalc.git
 cd qcalc
 ```
 
-### 2️⃣ Compile & Run
+### 2️⃣ Build Project (Gradle)
 
 ```bash
-javac src/*.java
-java src.Main
+gradle build
+```
+
+### 3️⃣ Run Application
+
+```bash
+gradle run
 ```
 
 ---
 
-## 📌 Class Design (OOP)
+## 🧪 Unit Testing
 
-* **Main.java** → Entry point of application
-* **CalculatorUI.java** → Handles GUI (buttons, layout, events)
-* **CalculatorLogic.java** → Core calculation logic
-* **Operations.java** → Defines reusable mathematical operations
+* Implemented using **JUnit**
+* Tested arithmetic operations
+* Ensured correctness of outputs
 
 ---
 
-## 📸 Screenshots
+## 🐞 Debugging
 
-### 🧮 Calculator UI
-
-![Calculator](screenshots/calculator.png)
+* Identified and fixed bugs in calculator logic
+* Improved performance and accuracy
+* Ensured stable execution of operations
 
 ---
 
 ## 📈 Key Highlights (ATS Friendly)
 
-* Built using **Java OOP principles**
-* Implemented **event-driven programming using Swing**
-* Designed **modular architecture with separation of concerns**
-* Applied **exception handling for robustness**
+* Developed using **Java fundamentals**
+* Built project using **Gradle build tool**
+* Implemented **unit testing with JUnit**
+* Performed **debugging and bug fixing**
+* Strengthened **problem-solving skills**
 
 ---
 
 ## 🔮 Future Enhancements
 
-* Scientific calculator mode
+* Scientific calculator features
+* GUI-based application (Swing/JavaFX)
 * Calculation history
-* Dark/Light theme
-* Keyboard input support
 
 ---
 
@@ -115,4 +128,4 @@ java src.Main
 
 ## ⭐ Support
 
-If you like this projec
+If you like this project, give it a ⭐ on GitHub!
