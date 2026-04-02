@@ -28,7 +28,7 @@ java QCalc
 How to Use
 After running, you’ll see the main menu:
 
-text
+
 === QCalc Menu ===
 1. Basic Calculator
 2. Quadratic Equation Solver
@@ -38,13 +38,12 @@ Choose an option:
 Enter two numbers and an operator (+, -, *, /)
 
 Example:
-
-text
 Enter first number: 10
 Enter operator: /
 Enter second number: 4
 Result: 2.5
-2. Quadratic Equation Solver
+
+## 2. Quadratic Equation Solver
 Enter coefficients a, b, c for ax² + bx + c = 0
 
 The program shows:
@@ -62,7 +61,7 @@ Enter a: 1
 Enter b: -5
 Enter c: 6
 Roots: 3.0 and 2.0
-3. Exit
+## 3. Exit
 Closes the application.
 
 Full Example Session
@@ -91,8 +90,8 @@ Result: 45.0
 
 Choose an option: 3
 Goodbye!
-Project Structure
-text
+## Project Structure
+
 qcalc/
 ├── QCalc.java          # Main source code (copy from below)
 └── README.md           # This file
@@ -199,8 +198,8 @@ public class QCalc {
         }
     }
 }
-Contributing
-Fork the repository
+### Contributing
+## Fork the repository
 
 Create a feature branch (git checkout -b feature/new-feature)
 
@@ -215,5 +214,5 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 (You can create a LICENSE file with the MIT license text.)
 
 Author
-Your Name – @yourgithub
-Project Link: https://github.com/yourusername/qcalc
+Your Name – @satishveesam
+Project Link:https://github.com/satishveesam/satishveesam9-ME_QCALC_V3-master)
